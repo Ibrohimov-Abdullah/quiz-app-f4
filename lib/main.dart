@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:quiz_app_f4/src/features/profile/view/pages/profile_page.dart';
 
 void main() async{
   runApp(App());
@@ -20,7 +21,7 @@ class App extends StatelessWidget {
         builder: (_, child) {
           return GetMaterialApp(
             debugShowCheckedModeBanner: false,
-            home: Scaffold(),
+            home: ProfilePage(),
           );
         },
     );
