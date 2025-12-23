@@ -7,7 +7,6 @@ void main() async{
   runApp(App());
 }
 
-
 class App extends StatelessWidget {
   const App({super.key});
 

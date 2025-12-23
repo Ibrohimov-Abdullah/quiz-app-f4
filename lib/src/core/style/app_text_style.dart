@@ -9,10 +9,10 @@ class AppTextStyle extends TextTheme {
   @override
   TextStyle? get displayLarge => TextStyle(
     fontWeight: FontWeight.w600,
-    fontSize: FontSize.size30, ///
+    fontSize: FontSize.size30,
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with displayLarge tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with displayLarge tell me! Abdullah Muminov.
 
   @override
   TextStyle? get displayMedium => TextStyle(
@@ -20,7 +20,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size20, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with displayMedium tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with displayMedium tell me! Abdullah Muminov.
 
   @override
   TextStyle? get displaySmall => TextStyle(
@@ -28,7 +28,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size11, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with displaySmall tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with displaySmall tell me! Abdullah Muminov.
 
   @override
   TextStyle? get headlineMedium => TextStyle(
@@ -36,7 +36,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size14,
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with headlineMedium tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with headlineMedium tell me! Abdullah Muminov.
 
   @override
   TextStyle? get headlineSmall => TextStyle(
@@ -44,7 +44,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size8, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with headlineSmall tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with headlineSmall tell me! Abdullah Muminov.
 
   @override
   TextStyle? get titleLarge => TextStyle(
@@ -52,15 +52,14 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size18, ///
     fontFamily: "Poppins",
     letterSpacing: 2,
-  ); /// If you have problem or any question with titleLarge tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with titleLarge tell me! Abdullah Muminov.
 
-  @override
   TextStyle? get titleMedium => TextStyle(
     fontWeight: FontWeight.w600,
     fontSize: FontSize.size16, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with titleMedium tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with titleMedium tell me! Abdullah Muminov.
 
   @override
   TextStyle? get titleSmall => TextStyle(
@@ -68,7 +67,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size11, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with titleSmall tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with titleSmall tell me! Abdullah Muminov.
 
   @override
   TextStyle? get bodyLarge => TextStyle(
@@ -76,7 +75,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size11, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with bodyLarge tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with bodyLarge tell me! Abdullah Muminov.
 
   @override
   TextStyle? get bodyMedium => TextStyle(
@@ -84,7 +83,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size11, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with bodyMedium tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with bodyMedium tell me! Abdullah Muminov.
 
   @override
   TextStyle? get bodySmall => TextStyle(
@@ -92,7 +91,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size11, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with bodySmall tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with bodySmall tell me! Abdullah Muminov.
 
   @override
   TextStyle? get labelLarge => TextStyle(
@@ -100,7 +99,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size7,
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with labelLarge tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with labelLarge tell me! Abdullah Muminov.
 
   @override
   TextStyle? get labelSmall => TextStyle(
@@ -108,7 +107,7 @@ class AppTextStyle extends TextTheme {
     fontSize: FontSize.size11, ///
     fontFamily: "Poppins",
     letterSpacing: 1,
-  ); /// If you have problem or any question with labelSmall tell me! Abdulloh Muminov.
+  ); /// If you have problem or any question with labelSmall tell me! Abdullah Muminov.
 }
 
 @immutable
