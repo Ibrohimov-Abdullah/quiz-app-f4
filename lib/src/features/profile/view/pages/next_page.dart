@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app_f4/src/core/style/app_text_style.dart';
 class QuestionPage extends StatefulWidget {
   final int taskNumber;
 
@@ -42,7 +43,7 @@ class _QuestionPageState extends State<QuestionPage> {
                     "${widget.taskNumber}. Lorem ipsum dolor sit amet, "
                         "consectetu adipiscing elit. Quisque sit amet "
                         "velit malesuada, scelerisque diam non, blandit neque.",
-                    style: TextStyle(color: Colors.white),
+                    style: AppTextStyle().bodySmall?.copyWith(color: Colors.white),
                   ),
                 ),
                 CircleAvatar(
