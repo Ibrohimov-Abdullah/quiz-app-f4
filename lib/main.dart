@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:quiz_app_f4/src/features/profile/view/pages/profile_page.dart';
+import 'package:quiz_app_f4/src/features/register/view/page/beshinchi_oyna.dart';
+import 'package:quiz_app_f4/src/features/register/view/page/birinchi_oyna.dart';
+import 'package:quiz_app_f4/src/features/register/view/page/my_page.dart';
+import 'package:quiz_app_f4/src/features/register/view/page/tortinchi_oyna.dart';
 
 void main() async{
   runApp(App());
@@ -21,7 +25,7 @@ class App extends StatelessWidget {
         builder: (_, child) {
           return GetMaterialApp(
             debugShowCheckedModeBanner: false,
-            home: ProfilePage(),
+            home:BeshinchiOyna()
           );
         },
     );
