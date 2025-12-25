@@ -53,11 +53,43 @@ class _ProfilePageState extends State<ProfilePage> {
                 ),
               ),
             ),
+            SizedBox(height: 10),
+            Text(
+              "User Name",
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 12,
+                color: Color(0xff000000),
+              ),
+            ),
+            Text(
+              "Firdavs Zayniddinov",
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 18,
+                color: Color(0xff000000),
+              ),
+            ),
+            SizedBox(height: 10),
+            Text(
+              "Phone Number",
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 12,
+                color: Color(0xff000000),
+              ),
+            ),
+            Text(
+              "+998994891210",
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 18,
+                color: Color(0xff000000),
+              ),
+            ),
           ],
         ),
       ),
     );
   }
 }
-
-
